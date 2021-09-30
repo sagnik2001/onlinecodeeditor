@@ -6,10 +6,9 @@
   display: flex;
 }
 @media (max-width: 600px){
-  .pane{
-  display:inline-block;
-  height:50vh;
-  width:100vw;
+.pane{
+  height: 100vh;
+
 }
 
 }
