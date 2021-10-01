@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import "./Home.css"
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import pic1 from "./pic1.png";
 function Home() {
   const wrapper = {
     width: "100%",
@@ -64,7 +64,7 @@ function Home() {
         >
           <Col md={6}>
             <img
-              src="https://o.remove.bg/downloads/704a04f9-aeaa-40e5-9f65-07b3ced8ce76/Programming-for-Beginners-10-Best-HTML-Coding-Practices-You-Must-Know-removebg-preview.png"
+              src={pic1}
               className="img-fluid"
               alt="main img"
               style={{ justifyContent: "center", padding: "30px" }}
