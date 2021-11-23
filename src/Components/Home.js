@@ -50,7 +50,7 @@ function Home() {
 
   return (
     <div
-      style={{ backgroundColor: "#2a283e", minHeight: "100vh", height: "auto" }}
+      style={{ backgroundColor: "#709b2c", minHeight: "100vh", height: "auto" }}
     >
       <Container style={wrapper}>
 
