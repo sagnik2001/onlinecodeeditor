@@ -1,5 +1,5 @@
 .top-pane{
-  background-color: hsl(255,6%,25%);
+  background-color: #709b2c;
 }
 .pane{
   height: 50vh;
@@ -18,7 +18,7 @@
   display:flex;
   flex-direction: column;
   padding:.5rem;
-  background-color:hsl(255,6%,25%);
+  background-color:rgb(61, 68, 60);
 }
 .editor-title{
   display:flex;
