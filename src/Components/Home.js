@@ -95,3 +95,4 @@ function Home() {
 }
 
 export default Home;
+//this is home component

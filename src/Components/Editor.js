@@ -1,3 +1,4 @@
+//this is editor component
 import {React,useState} from 'react';
 import "codemirror/lib/codemirror.css"
 import "codemirror/theme/material.css";
