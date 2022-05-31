@@ -27,7 +27,7 @@ const WebEditor=()=>{
   return(
   <>
   <div className="pane top-pane">
-      <Editor
+      {/* <Editor
         buttonicons={<DiHtml5 className="icon"/>}
         language="xml"
         displayName="HTML"
@@ -47,7 +47,38 @@ const WebEditor=()=>{
       displayName="JS"
       value={javascript}
       onChange={SetJavascript}
+      /> */}
+        <div className="container-fluid">
+        <div className="row">
+          <div class="col-lg-4 rempd">
+          <Editor
+        buttonicons={<DiHtml5 className="icon"/>}
+        language="xml"
+        displayName="HTML"
+        value={html}
+        onChange={SetHtml}
       />
+          </div>
+          <main class="col-lg-4 rempd fullrescard">
+          <Editor
+      buttonicons={<DiCss3 className="icon"/>}
+      language="css"
+      displayName="CSS"
+      value={css}
+      onChange={SetCSS}
+      />
+          </main>
+          <main className="col-lg-4 rescard">
+          <Editor
+      buttonicons={<DiJavascript1 className="icon"/>}
+      language="javascript"
+      displayName="JS"
+      value={javascript}
+      onChange={SetJavascript}
+      />
+          </main>
+        </div>
+      </div>
   </div>
   <div className="output-pane pane">
     <iframe

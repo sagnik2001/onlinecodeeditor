@@ -5,9 +5,9 @@
   height: 50vh;
   display: flex;
 }
-@media (max-width: 600px){
+@media (max-width: 991px){
 .pane{
-  height: 100vh;
+  height: -webkit-fill-available;
 
 }
 
@@ -19,6 +19,7 @@
   flex-direction: column;
   padding:.5rem;
   background-color:hsl(255,6%,25%);
+  height: 50vh;
 }
 .editor-title{
   display:flex;
